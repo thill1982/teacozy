@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  align-text: center;
+}
+
+.header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline;
+}
+
+.top-section {
+  width: 1200px;
+}
+
+.top-slogan {
+
+}
+
+.middle-section {
+  width: 1000px;
+}
+
+.middle-block {
+
+}
+
+.middle-block-image {
+  height: 200px;
+  width: 300px;
+}
+
+.middle-block-text {
+
+}
+
+.bottom-section {
+  height: 500px;
+}
+
+.bottom-block {
+  width: 300px;
+}
+
+.footer-section {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
