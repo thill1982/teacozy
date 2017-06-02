@@ -13,14 +13,28 @@ body {
   height: 69px;
   border-bottom: 1px solid seashell;
   text-decoration: underline;
-  margin-bottom: 70px;
   align-items: center;
   width: 100%;
   z-index: 5;
+  background-color: black;
+
+
+}
+
+.non-header-content {
+  padding-top: 69px;
+  margin: auto;
 }
 
 .header nav {
+flex-grow: 1;
+text-align: right;
+}
 
+nav span {
+  padding: 20px 10px;
+  text-decoration: underline;
+}
 
 }
 
@@ -32,6 +46,7 @@ body {
 .top-section {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   height: 700px;
   width: 1200px;
